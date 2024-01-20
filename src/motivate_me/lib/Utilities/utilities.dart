@@ -14,7 +14,7 @@ class Utilities {
   static String wikipediaApiBaseUrl = "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrlimit=1&prop=pageimages%7Cextracts&pithumbsize=400&format=json&gsrsearch=";
   static String favqsApiBaseUrl = "https://favqs.com/api/quotes/?filter=";
 
-  static String favqsApiKey = "27c1d786a5334db3f2a2da97fe12ac4d";
+  static String favqsApiKey = "API-KEY";
 
   // EIf that function calls itself too many times, the problem may be caused by the favqs server or something,
   // it is more logical to throw it to the main screen.
